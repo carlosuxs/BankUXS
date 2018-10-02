@@ -1,9 +1,17 @@
-//
-//  Extensions.swift
-//  BankUXS
-//
-//  Created by Carlos Colmenares on 1/10/18.
-//  Copyright © 2018 Carlos Colmenares. All rights reserved.
-//
 
 import Foundation
+
+extension Array {
+    func unique<T:Hashable>(map: ((Element) -> (T)))  -> [Element] {
+        var set = Set<T>()
+        var arrayOrdered = [Element]()
+        for value in self {
+            if !set.contains(map(value)) {
+                set.insert(map(value))
+                arrayOrdered.append(value)
+            }
+        }
+        
+        return arrayOrdered
+    }
+}

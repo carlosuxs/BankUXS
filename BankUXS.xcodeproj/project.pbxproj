@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		096D869E5420A96EF7185158 /* Pods_BankUXSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AE07B25043266BA0AC458A /* Pods_BankUXSUITests.framework */; };
 		58001BA521617D08007311A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001BA421617D08007311A0 /* AppDelegate.swift */; };
-		58001BA721617D08007311A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001BA621617D08007311A0 /* ViewController.swift */; };
 		58001BAA21617D08007311A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58001BA821617D08007311A0 /* Main.storyboard */; };
 		58001BAC21617D0A007311A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58001BAB21617D0A007311A0 /* Assets.xcassets */; };
 		58001BAF21617D0A007311A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58001BAD21617D0A007311A0 /* LaunchScreen.storyboard */; };
 		58001BBA21617D0B007311A0 /* BankUXSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001BB921617D0B007311A0 /* BankUXSTests.swift */; };
 		58001BC521617D0B007311A0 /* BankUXSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001BC421617D0B007311A0 /* BankUXSUITests.swift */; };
+		58001BDB21618661007311A0 /* TransactionsPresenterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001BDA21618661007311A0 /* TransactionsPresenterPresenter.swift */; };
+		58001BDF21618C4C007311A0 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001BDE21618C4C007311A0 /* TransactionsViewController.swift */; };
+		58001BE3216193DF007311A0 /* TransactionsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001BE2216193DF007311A0 /* TransactionsInteractor.swift */; };
+		58001BE721619F13007311A0 /* TransactionsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001BE621619F13007311A0 /* TransactionsResponse.swift */; };
+		58001BEC21619F68007311A0 /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58001BEB21619F68007311A0 /* TransactionsCell.xib */; };
+		58001BEE2161A283007311A0 /* TransactionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001BED2161A283007311A0 /* TransactionsCell.swift */; };
+		58001BF02161AE2F007311A0 /* TransactionsRepositoryDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001BEF2161AE2F007311A0 /* TransactionsRepositoryDefault.swift */; };
+		58001BF22161AF3D007311A0 /* TransactionsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001BF12161AF3D007311A0 /* TransactionsRepository.swift */; };
+		58001BF52161B0B7007311A0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001BF42161B0B7007311A0 /* Constants.swift */; };
+		58001BF72161E515007311A0 /* TransactionsItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001BF62161E515007311A0 /* TransactionsItemModel.swift */; };
+		58001BF92161E654007311A0 /* TransactionsSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001BF82161E654007311A0 /* TransactionsSectionModel.swift */; };
+		58001BFB2161E6EE007311A0 /* TransactionsStaticInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001BFA2161E6EE007311A0 /* TransactionsStaticInteractor.swift */; };
+		58001BFD216252A0007311A0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58001BFC216252A0007311A0 /* Extensions.swift */; };
+		F3E67138522E4169AF6EBEB0 /* Pods_BankUXS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B673EFCA4699E970D4115331 /* Pods_BankUXS.framework */; };
+		FA78A84494AE5C62936015E2 /* Pods_BankUXSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21B08AA278E38322448EFF3 /* Pods_BankUXSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		277576870B65A7EEC1668D75 /* Pods-BankUXSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankUXSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BankUXSUITests/Pods-BankUXSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		35AE07B25043266BA0AC458A /* Pods_BankUXSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankUXSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58001BA121617D08007311A0 /* BankUXS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankUXS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58001BA421617D08007311A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58001BA621617D08007311A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58001BA921617D08007311A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58001BAB21617D0A007311A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58001BAE21617D0A007311A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,26 @@
 		58001BC021617D0B007311A0 /* BankUXSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankUXSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58001BC421617D0B007311A0 /* BankUXSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankUXSUITests.swift; sourceTree = "<group>"; };
 		58001BC621617D0B007311A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58001BDA21618661007311A0 /* TransactionsPresenterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsPresenterPresenter.swift; sourceTree = "<group>"; };
+		58001BDE21618C4C007311A0 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		58001BE2216193DF007311A0 /* TransactionsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsInteractor.swift; sourceTree = "<group>"; };
+		58001BE621619F13007311A0 /* TransactionsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsResponse.swift; sourceTree = "<group>"; };
+		58001BEB21619F68007311A0 /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
+		58001BED2161A283007311A0 /* TransactionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsCell.swift; sourceTree = "<group>"; };
+		58001BEF2161AE2F007311A0 /* TransactionsRepositoryDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsRepositoryDefault.swift; sourceTree = "<group>"; };
+		58001BF12161AF3D007311A0 /* TransactionsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsRepository.swift; sourceTree = "<group>"; };
+		58001BF42161B0B7007311A0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		58001BF62161E515007311A0 /* TransactionsItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsItemModel.swift; sourceTree = "<group>"; };
+		58001BF82161E654007311A0 /* TransactionsSectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsSectionModel.swift; sourceTree = "<group>"; };
+		58001BFA2161E6EE007311A0 /* TransactionsStaticInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsStaticInteractor.swift; sourceTree = "<group>"; };
+		58001BFC216252A0007311A0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		64AD4B798B752DFACD9F350B /* Pods-BankUXSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankUXSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BankUXSTests/Pods-BankUXSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AB856E5D53A52665503CCEB /* Pods-BankUXSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankUXSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BankUXSUITests/Pods-BankUXSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		860E6F3044AAFDE71EA5B735 /* Pods-BankUXSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankUXSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BankUXSTests/Pods-BankUXSTests.release.xcconfig"; sourceTree = "<group>"; };
+		B673EFCA4699E970D4115331 /* Pods_BankUXS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankUXS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21B08AA278E38322448EFF3 /* Pods_BankUXSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankUXSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57F21EB3BC669689CEFF7E0 /* Pods-BankUXS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankUXS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BankUXS/Pods-BankUXS.debug.xcconfig"; sourceTree = "<group>"; };
+		EA1374FFCC89B4C6A1F64A1C /* Pods-BankUXS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankUXS.release.xcconfig"; path = "Pods/Target Support Files/Pods-BankUXS/Pods-BankUXS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3E67138522E4169AF6EBEB0 /* Pods_BankUXS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA78A84494AE5C62936015E2 /* Pods_BankUXSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				096D869E5420A96EF7185158 /* Pods_BankUXSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +120,8 @@
 				58001BB821617D0B007311A0 /* BankUXSTests */,
 				58001BC321617D0B007311A0 /* BankUXSUITests */,
 				58001BA221617D08007311A0 /* Products */,
+				F36D6743CE67922585077783 /* Pods */,
+				995F1C181B50700919F3331F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +138,11 @@
 		58001BA321617D08007311A0 /* BankUXS */ = {
 			isa = PBXGroup;
 			children = (
+				58001BF32161B09D007311A0 /* Utils */,
+				58001BD221617FD6007311A0 /* Business */,
+				58001BE521619C0C007311A0 /* Data */,
+				58001BD62161859A007311A0 /* Sections */,
 				58001BA421617D08007311A0 /* AppDelegate.swift */,
-				58001BA621617D08007311A0 /* ViewController.swift */,
 				58001BA821617D08007311A0 /* Main.storyboard */,
 				58001BAB21617D0A007311A0 /* Assets.xcassets */,
 				58001BAD21617D0A007311A0 /* LaunchScreen.storyboard */,
@@ -125,6 +169,126 @@
 			path = BankUXSUITests;
 			sourceTree = "<group>";
 		};
+		58001BD221617FD6007311A0 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				58001BD321617FEE007311A0 /* Data */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		58001BD321617FEE007311A0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				58001BD521618000007311A0 /* Repository */,
+				58001BD421617FF6007311A0 /* Interactor */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		58001BD421617FF6007311A0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				58001BFA2161E6EE007311A0 /* TransactionsStaticInteractor.swift */,
+				58001BE2216193DF007311A0 /* TransactionsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		58001BD521618000007311A0 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				58001BEF2161AE2F007311A0 /* TransactionsRepositoryDefault.swift */,
+				58001BF12161AF3D007311A0 /* TransactionsRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		58001BD62161859A007311A0 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				58001BD7216185D7007311A0 /* Transactions */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		58001BD7216185D7007311A0 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				58001BE921619F41007311A0 /* View */,
+				58001BDA21618661007311A0 /* TransactionsPresenterPresenter.swift */,
+				58001BDE21618C4C007311A0 /* TransactionsViewController.swift */,
+				58001BF62161E515007311A0 /* TransactionsItemModel.swift */,
+				58001BF82161E654007311A0 /* TransactionsSectionModel.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		58001BE521619C0C007311A0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				58001BE821619F1C007311A0 /* Responses */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		58001BE821619F1C007311A0 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				58001BE621619F13007311A0 /* TransactionsResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		58001BE921619F41007311A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58001BEA21619F4A007311A0 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58001BEA21619F4A007311A0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				58001BEB21619F68007311A0 /* TransactionsCell.xib */,
+				58001BED2161A283007311A0 /* TransactionsCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		58001BF32161B09D007311A0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				58001BF42161B0B7007311A0 /* Constants.swift */,
+				58001BFC216252A0007311A0 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		995F1C181B50700919F3331F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B673EFCA4699E970D4115331 /* Pods_BankUXS.framework */,
+				D21B08AA278E38322448EFF3 /* Pods_BankUXSTests.framework */,
+				35AE07B25043266BA0AC458A /* Pods_BankUXSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F36D6743CE67922585077783 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E57F21EB3BC669689CEFF7E0 /* Pods-BankUXS.debug.xcconfig */,
+				EA1374FFCC89B4C6A1F64A1C /* Pods-BankUXS.release.xcconfig */,
+				64AD4B798B752DFACD9F350B /* Pods-BankUXSTests.debug.xcconfig */,
+				860E6F3044AAFDE71EA5B735 /* Pods-BankUXSTests.release.xcconfig */,
+				277576870B65A7EEC1668D75 /* Pods-BankUXSUITests.debug.xcconfig */,
+				6AB856E5D53A52665503CCEB /* Pods-BankUXSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58001BC921617D0B007311A0 /* Build configuration list for PBXNativeTarget "BankUXS" */;
 			buildPhases = (
+				BB2E78F3D67F252B802A4698 /* [CP] Check Pods Manifest.lock */,
 				58001B9D21617D08007311A0 /* Sources */,
 				58001B9E21617D08007311A0 /* Frameworks */,
 				58001B9F21617D08007311A0 /* Resources */,
+				C9F749B30D69A78273010A4A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +315,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58001BCC21617D0B007311A0 /* Build configuration list for PBXNativeTarget "BankUXSTests" */;
 			buildPhases = (
+				B648BA44F47D94A64942CCE8 /* [CP] Check Pods Manifest.lock */,
 				58001BB121617D0B007311A0 /* Sources */,
 				58001BB221617D0B007311A0 /* Frameworks */,
 				58001BB321617D0B007311A0 /* Resources */,
@@ -167,6 +334,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58001BCF21617D0B007311A0 /* Build configuration list for PBXNativeTarget "BankUXSUITests" */;
 			buildPhases = (
+				6A70B77A3E5F6E5C4C929BC7 /* [CP] Check Pods Manifest.lock */,
 				58001BBC21617D0B007311A0 /* Sources */,
 				58001BBD21617D0B007311A0 /* Frameworks */,
 				58001BBE21617D0B007311A0 /* Resources */,
@@ -231,6 +399,7 @@
 			files = (
 				58001BAF21617D0A007311A0 /* LaunchScreen.storyboard in Resources */,
 				58001BAC21617D0A007311A0 /* Assets.xcassets in Resources */,
+				58001BEC21619F68007311A0 /* TransactionsCell.xib in Resources */,
 				58001BAA21617D08007311A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,12 +420,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A70B77A3E5F6E5C4C929BC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BankUXSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B648BA44F47D94A64942CCE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BankUXSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB2E78F3D67F252B802A4698 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BankUXS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9F749B30D69A78273010A4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BankUXS/Pods-BankUXS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BankUXS/Pods-BankUXS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58001B9D21617D08007311A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58001BA721617D08007311A0 /* ViewController.swift in Sources */,
+				58001BDB21618661007311A0 /* TransactionsPresenterPresenter.swift in Sources */,
+				58001BF22161AF3D007311A0 /* TransactionsRepository.swift in Sources */,
+				58001BDF21618C4C007311A0 /* TransactionsViewController.swift in Sources */,
+				58001BFB2161E6EE007311A0 /* TransactionsStaticInteractor.swift in Sources */,
+				58001BE721619F13007311A0 /* TransactionsResponse.swift in Sources */,
+				58001BF52161B0B7007311A0 /* Constants.swift in Sources */,
+				58001BF02161AE2F007311A0 /* TransactionsRepositoryDefault.swift in Sources */,
+				58001BF72161E515007311A0 /* TransactionsItemModel.swift in Sources */,
+				58001BFD216252A0007311A0 /* Extensions.swift in Sources */,
+				58001BF92161E654007311A0 /* TransactionsSectionModel.swift in Sources */,
+				58001BE3216193DF007311A0 /* TransactionsInteractor.swift in Sources */,
+				58001BEE2161A283007311A0 /* TransactionsCell.swift in Sources */,
 				58001BA521617D08007311A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +685,7 @@
 		};
 		58001BCA21617D0B007311A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E57F21EB3BC669689CEFF7E0 /* Pods-BankUXS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +704,7 @@
 		};
 		58001BCB21617D0B007311A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1374FFCC89B4C6A1F64A1C /* Pods-BankUXS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +723,7 @@
 		};
 		58001BCD21617D0B007311A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64AD4B798B752DFACD9F350B /* Pods-BankUXSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +745,7 @@
 		};
 		58001BCE21617D0B007311A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 860E6F3044AAFDE71EA5B735 /* Pods-BankUXSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +767,7 @@
 		};
 		58001BD021617D0B007311A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277576870B65A7EEC1668D75 /* Pods-BankUXSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +788,7 @@
 		};
 		58001BD121617D0B007311A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AB856E5D53A52665503CCEB /* Pods-BankUXSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
